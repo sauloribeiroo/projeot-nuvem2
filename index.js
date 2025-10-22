@@ -22,6 +22,10 @@ app.get("/funcionarios", function(req,res){
     res.send("<h1>Lista de Todos os Funcionarios!</h1>");
 })
 
+app.get("/Projetos", function(req,res){
+    res.send("<h1>Lista de Todos os Projetos!</h1>");
+})
+
 
 //rota com parametro opcional
 app.get("/cadastro/{:nome}", function(req,res){
